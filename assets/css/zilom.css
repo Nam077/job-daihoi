@@ -18,6 +18,7 @@
 /*--------------------------------------------------------------
 # Common
 --------------------------------------------------------------*/
+
 :root {
     --thm-font: 'Kumbh Sans', sans-serif;
     --thm-reey-font: 'reeyregular';
@@ -30,8 +31,6 @@
     --thm-black: #1c1e27;
     --thm-black-rgb: 28, 30, 39;
 }
-
-
 
 .row {
     --bs-gutter-x: 30px;
@@ -100,7 +99,6 @@ h6 {
     margin: 0;
 }
 
-
 .noSelect {
     -ms-user-select: none;
     user-select: none;
@@ -109,7 +107,6 @@ h6 {
     -khtml-user-select: none;
     -webkit-user-select: none;
 }
-
 
 dl,
 ol,
@@ -143,14 +140,12 @@ ul {
     opacity: 1;
 }
 
-
 .auto-container {
     position: static;
     max-width: 1200px;
     padding: 0px 15px;
     margin: 0 auto;
 }
-
 
 .page-wrapper {
     position: relative;
@@ -170,9 +165,6 @@ ul {
         max-width: 1200px;
     }
 }
-
-
-
 
 .bootstrap-select .btn-light:not(:disabled):not(.disabled).active,
 .bootstrap-select .btn-light:not(:disabled):not(.disabled):active,
@@ -223,45 +215,25 @@ ul {
     cursor: pointer;
 }
 
-
-
-
-
 ::-webkit-input-placeholder {
     color: inherit;
     opacity: 1;
 }
-
-
-
-
 
 ::-moz-placeholder {
     color: inherit;
     opacity: 1;
 }
 
-
-
-
-
 :-ms-input-placeholder {
     color: inherit;
     opacity: 1;
 }
 
-
-
-
-
 ::-ms-input-placeholder {
     color: inherit;
     opacity: 1;
 }
-
-
-
-
 
 ::placeholder {
     color: inherit;
@@ -323,8 +295,6 @@ ul {
     color: #ffffff;
 }
 
-
-
 .section-title {
     position: relative;
     display: block;
@@ -348,10 +318,6 @@ ul {
     font-weight: 700;
     text-transform: capitalize;
 }
-
-
-
-
 
 .bootstrap-select .dropdown-menu {
     padding-top: 0;
@@ -391,11 +357,13 @@ ul {
     animation-iteration-count: infinite;
 }
 
+
 /***
 =============================================
     Dot Style
 =============================================
 ***/
+
 .owl-carousel.owl-dot-type1 .owl-stage-outer {
     position: relative;
     display: block;
@@ -448,11 +416,13 @@ ul {
     outline: none;
 }
 
+
 /***
 =============================================
     Scroll To Top
 =============================================
 ***/
+
 .scroll-to-top {
     display: inline-block;
     width: 45px;
@@ -508,7 +478,6 @@ ul {
     -o-transition: all 500ms ease;
 }
 
-
 .main-header-one__bottom {
     position: relative;
     display: block;
@@ -525,7 +494,6 @@ ul {
     position: relative;
     display: block;
 }
-
 
 .main-menu {
     position: relative;
@@ -594,7 +562,6 @@ ul {
     padding-right: 0px;
 }
 
-
 .main-menu .main-menu__list>li.current>a::before,
 .main-menu .main-menu__list>li:hover>a::before,
 .stricky-header .main-menu__list>li.current>a::before,
@@ -629,8 +596,6 @@ ul {
 .stricky-header .main-menu__list li ul {
     margin-top: 0px;
 }
-
-
 
 .main-menu .main-menu__list li:hover>ul,
 .stricky-header .main-menu__list li:hover>ul {
@@ -678,7 +643,6 @@ ul {
     color: #fff;
 }
 
-
 .main-menu .main-menu__list li ul li>ul,
 .stricky-header .main-menu__list li ul li>ul {
     top: 0;
@@ -696,10 +660,6 @@ ul {
 .stricky-header .main-menu__list li ul li>ul ul {
     display: none;
 }
-
-
-
-
 
 .main-header-one__bottom .right {
     position: relative;
@@ -767,7 +727,6 @@ ul {
     color: var(--thm-base);
 }
 
-
 .main-menu__right-cart-search {
     position: relative;
     display: flex;
@@ -816,8 +775,6 @@ ul {
     padding: 5px 30px 2px;
 }
 
-
-
 .stricky-header {
     position: fixed;
     z-index: 991;
@@ -855,50 +812,32 @@ ul {
     margin-right: 10px;
 }
 
-
-
-
 @media (min-width: 1200px) {
-
     .main-menu .main-menu__list,
     .main-menu .main-menu__list ul,
     .stricky-header .main-menu__list,
     .stricky-header .main-menu__list ul {
         display: flex;
     }
-
 }
 
-
 @media (max-width: 1199px) {
-
     .stricky-header {
         display: none !important
     }
-
 }
 
-
 @media (min-width: 1200px) {
-
     .mobile-nav__buttons {
         display: none;
     }
-
 }
 
-
 @media (min-width: 1200px) {
-
     .main-menu .mobile-nav__toggler {
         display: none;
     }
-
 }
-
-
-
-
 
 .mobile-nav__buttons a {
     font-size: 20px;
@@ -927,11 +866,6 @@ ul {
 }
 
 
-
-
-
-
-
 /*----------------------------------------
 # Main Header Two
 -----------------------------------------*/
@@ -946,18 +880,15 @@ ul {
     flex-wrap: wrap;
 }
 
-
-
 .stricky-header--style2 .search-box {
     display: none;
 }
 
 
-
-
 /*----------------------------------------
 # Main Header Three
 -----------------------------------------*/
+
 .main-header--three {
     position: relative;
     left: 0px;
@@ -985,7 +916,6 @@ ul {
     display: none;
 }
 
-
 .main-header-three__top {
     position: relative;
     display: block;
@@ -1002,7 +932,6 @@ ul {
     flex-direction: row;
     flex-wrap: wrap;
 }
-
 
 .main-header-three__top-left {
     position: relative;
@@ -1029,7 +958,6 @@ ul {
 .main-header-three__top-left ul li:last-child {
     border-right: 1px solid #ececec;
 }
-
 
 .main-header-three__top-left ul li .icon {
     position: relative;
@@ -1072,8 +1000,6 @@ ul {
     font-weight: 400;
 }
 
-
-
 .main-header-three__top-right {
     position: absolute;
     top: 0;
@@ -1090,8 +1016,6 @@ ul {
     position: relative;
     display: block;
 }
-
-
 
 .main-header-three__top-right .search-box-two form .form-group input[type="search"] {
     color: #1b1d21;
@@ -1125,8 +1049,6 @@ ul {
     font-weight: 700;
 }
 
-
-
 .main-header-three__bottom {
     position: relative;
     display: block;
@@ -1154,8 +1076,6 @@ ul {
 .main-header-three__bottom-inner .main-menu .left .main-menu__list {
     margin-left: 100px;
 }
-
-
 
 .logo-box3 {
     position: relative;
@@ -1225,11 +1145,6 @@ ul {
 }
 
 
-
-
-
-
-
 /*----------------------------------------
 # Main Header Four
 -----------------------------------------*/
@@ -1247,7 +1162,6 @@ ul {
 .stricky-header--style4 .main-header-four__bottom_right {
     display: none;
 }
-
 
 .main-header-four__top {
     position: relative;
@@ -1305,7 +1219,6 @@ ul {
     line-height: 32px;
 }
 
-
 .main-header-four__bottom {
     position: relative;
     display: block;
@@ -1336,11 +1249,10 @@ ul {
 }
 
 
-
-
 /*--------------------------------------------------------------
 # Mobile Nav
 --------------------------------------------------------------*/
+
 .mobile-nav__wrapper {
     position: fixed;
     top: 0;
@@ -1376,10 +1288,6 @@ ul {
     opacity: 0.5;
     cursor: pointer;
 }
-
-
-
-
 
 .mobile-nav__content {
     width: 300px;
@@ -1454,8 +1362,6 @@ ul {
 .mobile-nav__content .main-menu__list li a:hover {
     color: var(--thm-base);
 }
-
-
 
 .mobile-nav__content .main-menu__list li a button {
     width: 28px;
@@ -1576,9 +1482,11 @@ ul {
     display: none;
 }
 
+
 /*--------------------------------------------------------------
 # Search Popup
 --------------------------------------------------------------*/
+
 .search-popup {
     position: fixed;
     top: 0;
@@ -1669,28 +1577,12 @@ ul {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /***
 =============================================
     Main Header One
 =============================================
 ***/
+
 .main-header--one {
     position: relative;
     display: block;
@@ -1720,8 +1612,6 @@ ul {
     display: inline-block;
     padding-top: 8px;
 }
-
-
 
 .main-header--one__top-right {
     position: relative;
@@ -1856,12 +1746,12 @@ ul {
 }
 
 
-
 /***
 =============================================
     Main Header Two
 =============================================
 ***/
+
 .main-header--two {
     position: absolute;
     left: 0px;
@@ -2040,8 +1930,6 @@ ul {
     font-size: 12px;
 }
 
-
-
 .main-header-two__bottom {
     position: relative;
     display: block;
@@ -2133,6 +2021,7 @@ ul {
     Slider
 =============================================
 ***/
+
 .main-slider {
     position: relative;
     display: block;
@@ -2231,7 +2120,6 @@ ul {
     z-index: 1;
     opacity: 0;
     transform: translateY(100%);
-
 }
 
 .main-slider.main-slider-one .swiper-slide-active .main-slider__content-icon-one {
@@ -2433,7 +2321,6 @@ ul {
     opacity: 0;
     transition: all 1000ms ease;
     transform: translateY(80px);
-
 }
 
 .main-slider-one .swiper-slide-active .main-slider__content-title {
@@ -2486,15 +2373,12 @@ ul {
     transition: transform 1500ms ease, opacity 1500ms ease, visibility 1500ms ease;
 }
 
-
-
 .main-slider.main-slider-one .swiper-slide-active .main-slider-one__img {
     opacity: 1;
     visibility: visible;
     transform: translateX(0%);
     transition-delay: 0ms;
 }
-
 
 .main-slider__nav {
     position: absolute;
@@ -2572,13 +2456,9 @@ ul {
     line-height: 60px;
 }
 
-
-
 .main-slider-one #main-slider-pagination {
     display: none;
 }
-
-
 
 #main-slider-pagination {
     z-index: 10;
@@ -2607,7 +2487,6 @@ ul {
     margin: 0 0px;
 }
 
-
 #main-slider-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active:focus,
 #main-slider-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active:hover {
     outline: none;
@@ -2615,12 +2494,12 @@ ul {
 }
 
 
-
 /***
 =============================================
     Main Slider Two
 =============================================
 ***/
+
 .main-slider-two {
     position: relative;
     display: block;
@@ -2632,7 +2511,6 @@ ul {
     padding-top: 320px;
     padding-bottom: 260px;
 }
-
 
 .main-slider-two .image-layer-overlay {
     position: absolute;
@@ -2665,7 +2543,6 @@ ul {
     transform: translateX(0);
     transition-delay: 1000ms;
 }
-
 
 .main-slider__title {
     color: #ffffff;
@@ -2701,22 +2578,12 @@ ul {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /***
 =============================================
     Page Header
 =============================================
 ***/
+
 .page-header {
     position: relative;
     display: block;
@@ -2818,12 +2685,12 @@ ul {
 }
 
 
-
 /***
 =============================================
     Features One
 =============================================
 ***/
+
 .features-one {
     position: relative;
     display: block;
@@ -2914,15 +2781,12 @@ ul {
 }
 
 
-
-
-
-
 /***
 =============================================
     About One
 =============================================
 ***/
+
 .about-one {
     position: relative;
     display: block;
@@ -3145,12 +3009,12 @@ ul {
 }
 
 
-
 /***
 =============================================
     Courses One
 =============================================
 ***/
+
 .courses-one {
     position: relative;
     display: block;
@@ -3255,7 +3119,6 @@ ul {
     line-height: 22px;
     font-weight: 400;
     margin-bottom: 2px;
-
 }
 
 .courses-one__single-content-title {
@@ -3359,7 +3222,6 @@ ul {
     display: none;
 }
 
-
 .courses-one--courses {
     position: relative;
     display: block;
@@ -3417,12 +3279,12 @@ ul {
 }
 
 
-
 /***
 =============================================
     Registration One
 =============================================
 ***/
+
 .registration-one {
     position: relative;
     display: block;
@@ -3529,10 +3391,6 @@ ul {
     margin: 0;
 }
 
-
-
-
-
 .registration-one__right {
     position: relative;
     display: block;
@@ -3549,7 +3407,6 @@ ul {
     z-index: 2;
     border-radius: 8px;
 }
-
 
 .registration-one__right-form .title-box {
     position: relative;
@@ -3573,7 +3430,6 @@ ul {
     position: relative;
     margin-bottom: 10px;
 }
-
 
 .registration-one__right-form .form-group input[type="text"],
 .registration-one__right-form .form-group input[type="email"],
@@ -3618,6 +3474,7 @@ ul {
     Categories One
 =============================================
 ***/
+
 .categories-one {
     position: relative;
     display: block;
@@ -3738,12 +3595,12 @@ ul {
 }
 
 
-
 /***
 =============================================
     Testimonials One
 =============================================
 ***/
+
 .testimonials-one {
     position: relative;
     display: block;
@@ -3862,8 +3719,6 @@ ul {
     margin: 0;
 }
 
-
-
 .testimonials-one__carousel.owl-theme .owl-stage-outer {
     overflow: visible;
 }
@@ -3884,6 +3739,7 @@ ul {
     Company Logos One
 =============================================
 ***/
+
 .company-logos-one {
     position: relative;
     display: block;
@@ -3952,11 +3808,13 @@ ul {
     padding: 0px 0px 120px;
 }
 
+
 /***
 =============================================
     Why Choose
 =============================================
 ***/
+
 .why-choose-one {
     position: relative;
     display: block;
@@ -4038,7 +3896,6 @@ ul {
     position: relative;
     display: block;
     margin-bottom: 8px;
-
 }
 
 .why-choose-one__left-list-single:last-child {
@@ -4087,7 +3944,6 @@ ul {
 .why-choose-one__right-img img {
     max-width: none;
     float: left;
-
 }
 
 .why-choose-one__right-img-overlay {
@@ -4112,13 +3968,12 @@ ul {
 }
 
 
-
-
 /***
 =============================================
     Blog One
 =============================================
 ***/
+
 .blog-one {
     position: relative;
     display: block;
@@ -4288,18 +4143,19 @@ ul {
     z-index: -1;
 }
 
-
 .blog-one--blog {
     position: relative;
     display: block;
     padding: 120px 0px 90px;
 }
 
+
 /***
 =============================================
     Newsletter One
 =============================================
 ***/
+
 .newsletter-one {
     position: relative;
     display: block;
@@ -4321,7 +4177,6 @@ ul {
     position: relative;
     display: block;
 }
-
 
 .newsletter-one__right {
     position: relative;
@@ -4454,11 +4309,13 @@ ul {
     transform: scale(1.0);
 }
 
+
 /***
 =============================================
     Footer One
 =============================================
 ***/
+
 .footer-one__bg {
     position: relative;
     display: block;
@@ -4482,12 +4339,10 @@ ul {
     background-color: var(--thm-black);
 }
 
-
 .footer-one .container {
     position: relative;
     z-index: 10;
 }
-
 
 .footer-one__top {
     position: relative;
@@ -4519,8 +4374,6 @@ ul {
     position: relative;
     display: block;
 }
-
-
 
 .footer-widget__courses {
     position: relative;
@@ -4597,7 +4450,6 @@ ul {
     display: block;
 }
 
-
 .footer-widget__contact {
     position: relative;
     display: block;
@@ -4647,7 +4499,6 @@ ul {
 .footer-widget__contact .phone a:hover {
     color: var(--thm-primary);
 }
-
 
 .footer-widget__social-links {
     position: relative;
@@ -4731,11 +4582,13 @@ ul {
     margin: 0;
 }
 
+
 /***
 =============================================
     Categories Two
 =============================================
 ***/
+
 .categories-two {
     position: relative;
     display: block;
@@ -4916,12 +4769,12 @@ ul {
 }
 
 
-
 /***
 =============================================
     Welcome One
 =============================================
 ***/
+
 .welcome-one {
     position: relative;
     display: block;
@@ -5065,11 +4918,13 @@ ul {
     width: 100%;
 }
 
+
 /***
 =============================================
     Video One
 =============================================
 ***/
+
 .video-one {
     position: relative;
     display: block;
@@ -5157,13 +5012,12 @@ ul {
 }
 
 
-
-
 /***
 =============================================
     Counter One
 =============================================
 ***/
+
 .counter-one {
     position: relative;
     display: block;
@@ -5195,7 +5049,6 @@ ul {
     color: #aeb2c2;
     margin: 0;
 }
-
 
 .counter-one__right {
     position: relative;
@@ -5230,8 +5083,6 @@ ul {
     margin-bottom: 25px;
 }
 
-
-
 .counter-one__right-text {
     color: #aeb2c2;
     font-size: 16px;
@@ -5246,7 +5097,6 @@ ul {
     font-weight: 700;
 }
 
-
 .counter-one--about {
     position: relative;
     display: block;
@@ -5254,11 +5104,13 @@ ul {
     margin-top: 0px;
 }
 
+
 /***
 =============================================
     Meet Teachers One
 =============================================
 ***/
+
 .meet-teachers-one {
     position: relative;
     display: block;
@@ -5323,7 +5175,6 @@ ul {
 .meet-teachers-one__single:hover .meet-teachers-one__single-img img {
     transform: scale(1.2)
 }
-
 
 .meet-teachers-one__single-content {
     position: relative;
@@ -5436,16 +5287,12 @@ ul {
 }
 
 
-
-
-
-
-
 /***
 =============================================
     Cta One
 =============================================
 ***/
+
 .cta-one {
     position: relative;
     display: block;
@@ -5508,6 +5355,7 @@ ul {
     Registration Two
 =============================================
 ***/
+
 .registration-two {
     position: relative;
     display: block;
@@ -5578,6 +5426,7 @@ ul {
     Features Two
 =============================================
 ***/
+
 .features-two {
     position: relative;
     display: block;
@@ -5697,6 +5546,7 @@ ul {
     Testimonials Two
 =============================================
 ***/
+
 .testimonials-two {
     position: relative;
     display: block;
@@ -5748,14 +5598,12 @@ ul {
 }
 
 @media(min-width: 1200px) {
-
     .testimonials-two__right {
         margin-top: 50px;
     }
 }
 
 @media(min-width: 1845px) {
-
     .testimonials-two__right {
         position: absolute;
         top: 0px;
@@ -5763,14 +5611,12 @@ ul {
         min-width: 1470px;
         margin-top: 0;
     }
-
     .testimonials-two__carousel.owl-dot-type1.style2 .owl-dots {
         position: absolute;
         top: 213px;
         left: -445px;
     }
 }
-
 
 .testimonials-two__carousel.owl-theme .owl-stage-outer {
     overflow: visible;
@@ -5796,10 +5642,7 @@ ul {
     z-index: 9;
 }
 
-
 @media(min-width: 1845px) {
-
-
     .testimonials-two__carousel.owl-dot-type1.style2 .owl-dots {
         position: absolute;
         top: 279px;
@@ -5813,6 +5656,7 @@ ul {
     About Two
 =============================================
 ***/
+
 .about-two {
     position: relative;
     display: block;
@@ -5885,12 +5729,12 @@ ul {
 }
 
 
-
 /***
 =============================================
     News Details
 =============================================
 ***/
+
 .news-details {
     position: relative;
     display: block;
@@ -5978,7 +5822,6 @@ ul {
     margin: 0;
 }
 
-
 .news-details__bottom {
     display: -webkit-box;
     display: flex;
@@ -6064,6 +5907,7 @@ ul {
     Author
 =============================================
 ***/
+
 .author-one {
     background-color: #f1f2f6;
     padding: 60px 60px 54px;
@@ -6104,6 +5948,7 @@ ul {
     Comments
 =============================================
 ***/
+
 .comment-one {
     position: relative;
     display: block;
@@ -6179,8 +6024,6 @@ ul {
     padding: 6px 25px 2px;
     font-size: 12px;
 }
-
-
 
 .comment-one__image img {
     border-radius: 50%;
@@ -6318,7 +6161,6 @@ ul {
     padding: 0;
 }
 
-
 .sidebar__post {
     position: relative;
     display: block;
@@ -6353,8 +6195,6 @@ ul {
     top: 10px;
     left: 0;
 }
-
-
 
 .sidebar__post-content {
     position: relative;
@@ -6408,13 +6248,6 @@ ul {
     color: var(--thm-base);
 }
 
-
-
-
-
-
-
-
 .sidebar__category {
     position: relative;
     display: block;
@@ -6461,8 +6294,6 @@ ul {
     color: var(--thm-base);
     font-weight: 700;
 }
-
-
 
 .sidebar__tags {
     position: relative;
@@ -6511,12 +6342,12 @@ ul {
 }
 
 
-
 /***
 =============================================
    Teaching One
 =============================================
 ***/
+
 .teaching-one {
     position: relative;
     display: block;
@@ -6556,7 +6387,6 @@ ul {
     margin-bottom: 10px;
 }
 
-
 .teaching-one__apply-form .form-group input[type="text"],
 .teaching-one__apply-form .form-group input[type="email"],
 .teaching-one__apply-form .form-group input[type="tel"],
@@ -6594,7 +6424,6 @@ ul {
     padding: 0;
 }
 
-
 .teaching-one__content {
     position: relative;
     display: block;
@@ -6626,11 +6455,13 @@ ul {
     margin: 0;
 }
 
+
 /***
 =============================================
     Contact Details One
 =============================================
 ***/
+
 .contact-details-one {
     position: relative;
     display: block;
@@ -6733,6 +6564,7 @@ ul {
     Contact Page
 =============================================
 ***/
+
 .contact-page {
     position: relative;
     display: block;
@@ -6754,11 +6586,13 @@ ul {
     display: block;
 }
 
+
 /***
 =============================================
     Google Map
 =============================================
 ***/
+
 .contact-page-google-map {
     position: relative;
     display: block;
@@ -6774,12 +6608,12 @@ ul {
 }
 
 
-
 /***
 =============================================
     Course Details
 =============================================
 ***/
+
 .course-details {
     position: relative;
     display: block;
@@ -6920,8 +6754,6 @@ ul {
     margin: 0;
 }
 
-
-
 .course-details__curriculum {
     position: relative;
     display: block;
@@ -7054,9 +6886,6 @@ ul {
     font-size: 16px;
     margin: 0;
 }
-
-
-
 
 .course-details__reviews {
     position: relative;
@@ -7247,7 +7076,6 @@ ul {
     margin: 0;
 }
 
-
 .course-details__add-review {
     position: relative;
     display: block;
@@ -7289,8 +7117,6 @@ ul {
     display: block;
     margin-top: 38px;
 }
-
-
 
 .course-details__sidebar {
     position: relative;
@@ -7404,8 +7230,6 @@ ul {
     font-size: 16px;
 }
 
-
-
 .course-details__new-courses {
     position: relative;
     display: block;
@@ -7434,7 +7258,6 @@ ul {
     border-bottom: 1px solid #e0e2e9;
     margin-bottom: 25px;
     padding-bottom: 22px;
-
 }
 
 .course-details__new-courses-list-item:last-child {
@@ -7515,22 +7338,12 @@ ul {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /***
 =============================================
     Tiny Scrollbar
 =============================================
 ***/
+
 #scrollbar1 {
     width: 270px;
     margin: 0;
