@@ -77,6 +77,11 @@
 
 .table td {
     text-align: center;
+    width: 100px;
+}
+
+.table .stage {
+    height: 100px;
 }
 
 .seat {
