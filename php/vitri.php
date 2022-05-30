@@ -28,7 +28,7 @@
             for ($i = 0; $i < count($set); $i++)
                 echo "<option value='".$set[$i]."'>".$set[$i]."</option>";
             echo "</select>";
-            echo "<a class='thm-btn' style='margin:20px' onclick = 'setDoan()'>Tiếp theo</a>";
+            echo "<a class='thm-btn' onclick = 'setDoan()'>Tiếp theo</a>";
         } else if ($_GET["select"] == "Doan") {
             $sql = "SELECT * FROM information WHERE Khoi = '".$_COOKIE["Khoi"]."' AND Doan ='".$_COOKIE["Doan"]."'";
             $result = $conn->query($sql);
@@ -53,7 +53,7 @@
             for ($i = 0; $i < count($set); $i++)
                 echo "<option value='".$set[$i]."'>".$set[$i]."</option>";
             echo "</select>";
-            echo "<a class='thm-btn' style='margin:20px' onclick = 'setName()'>Tiếp theo</a>";
+            echo "<a class='thm-btn' onclick = 'setName()'>Tiếp theo</a>";
         } else if ($_GET["select"] == "Name") {
             $sql = "SELECT * FROM information WHERE Khoi = '".$_COOKIE["Khoi"]."' AND Doan ='".$_COOKIE["Doan"]."' AND HoTen='".$_COOKIE["Name"]."'";
             $result = $conn->query($sql);
@@ -73,12 +73,12 @@
                 if ($array[$i] != $array[$i - 1])
                 array_push($set, $array[$i]);
             }
-            echo "<h5>Số ghế của bạn là</h5>";
-            echo "<select id='select'>";
-            for ($i = 0; $i < count($set); $i++)
-                echo "<option value='".$set[$i]."'>".$set[$i]."</option>";
-            echo "</select>";
-            // echo "<a class='thm-btn' style='margin:20px' onclick = 'setName()'>Tiếp theo</a>";
+            echo "<div class='notification' role='alert'>";
+            echo "Số ghế của bạn là: ";
+            echo "<span>".$set[0]."</span>";
+            echo "<br>Xem vị trí của bạn trên sơ đồ";
+            echo "<a href=''>Tại đây</a>";
+            echo "</div>";
         }
     } else {
         $sql = "SELECT * FROM information";
@@ -104,7 +104,7 @@
         for ($i = 0; $i < count($set); $i++)
             echo "<option value='".$set[$i]."'>".$set[$i]."</option>";
         echo "</select>";
-        echo "<a class='thm-btn' style='margin:20px' onclick = 'setKhoi()'>Tiếp theo</a>";
+        echo "<a class='thm-btn' onclick = 'setKhoi()'>Tiếp theo</a>";
     }
 
     

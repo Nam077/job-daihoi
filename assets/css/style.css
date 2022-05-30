@@ -1,5 +1,5 @@
 .attendance a {
-    margin: auto;
+    margin-top: 20px;
     width: 100%;
     padding: 10px;
     justify-content: center;
@@ -18,14 +18,15 @@
 }
 
 .attendance select {
-    margin: 20px;
+    margin-top: 20px;
     width: 100%;
     height: 60px;
     font-size: 20px;
 }
 
-.attendance .reset {
-    margin: 20px;
+.attendance .reset,
+.attendance .notification {
+    margin-top: 20px;
 }
 
 .logo {
@@ -34,4 +35,20 @@
 
 .footer-logo {
     height: 15vw;
+}
+
+.notification {
+    background-color: cornflowerblue;
+    color: aqua;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.notification span {
+    color: rgb(255, 0, 64);
+}
+
+.notification a {
+    color: #fff
 }
