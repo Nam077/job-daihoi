@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="assets/js/vitri.js"></script>
+    <script src="assets/js/notification.js"></script>
 
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/zilom.css" />
@@ -165,21 +166,27 @@
         </section>
         <!--Page Header End-->
         <div class="attendance">
-            <h2 class="section-title__title" id="title">Chỗ ngồi của bạn</h2>
+            <h2 class="section-title__title" id="title">Số ghế của bạn</h2>
             <hr>
 
             <div class="select">
-                <h5>Khối đoàn</h5>
+                <!-- <h5>Khối đoàn</h5>
                 <select id="select">
                     <option value="Phan Hải">A. KHỐI PHƯỜNG, XÃ</option>
                     <option>aa</option>;
                     <option>aa</option>;
-                </select>
+                </select> -->
             </div>
 
-
+            <a class='thm-btn reset' id='khoi' onclick="reset()">Chọn lại</a>
         </div>
 
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Xin chào!</strong> Thông báo này hiện thị là do .alert
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
 
         <!--Start Footer One-->
         <footer class="footer-one">

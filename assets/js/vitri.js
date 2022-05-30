@@ -5,10 +5,64 @@ $(document).ready(function() {
         type: 'GET'
     }).done(function(result) {
         $('.select').html(result)
-    })
+    });
 })
 
 function setKhoi() {
-    let k = $('#select').val();
-    console.log(k);
+    let Khoi = $('#select').val();
+    document.cookie = "Khoi=" + Khoi + "; path=/"
+    console.log(document.cookie);
+    $.ajax({
+        url: 'php/vitri.php',
+        dataType: 'html',
+        type: 'GET',
+        data: {
+            select: "Khoi"
+        }
+    }).done(function(result) {
+        $('.select').html(result)
+    });
+}
+
+function setDoan() {
+    let Doan = $('#select').val();
+    document.cookie = "Doan=" + Doan + "; path=/"
+    console.log(document.cookie);
+    $.ajax({
+        url: 'php/vitri.php',
+        dataType: 'html',
+        type: 'GET',
+        data: {
+            select: "Doan"
+        }
+    }).done(function(result) {
+        $('.select').html(result)
+    });
+}
+
+function setName() {
+    let Name = $('#select').val();
+    document.cookie = "Name=" + Name + "; path=/"
+    console.log(document.cookie);
+    $.ajax({
+        url: 'php/vitri.php',
+        dataType: 'html',
+        type: 'GET',
+        data: {
+            select: "Name"
+        }
+    }).done(function(result) {
+        $('.select').html(result)
+    });
+}
+
+function reset() {
+    $.ajax({
+        url: 'php/vitri.php',
+        dataType: 'html',
+        type: 'GET'
+    }).done(function(result) {
+        $('.select').html(result)
+    });
+
 }
