@@ -77,7 +77,7 @@
             echo "Số ghế của bạn là: ";
             echo "<span>".$set[0]."</span>";
             echo "<br>Xem vị trí của bạn trên sơ đồ";
-            echo "<a href=''>Tại đây</a>";
+            echo "<a href='#sodo' onclick=\"sodo('".$set[0]."')\" >Tại đây</a>";
             echo "</div>";
         }
     } else {

@@ -313,7 +313,8 @@ ul {
 }
 
 .section-title__title {
-    font-size: 50px;
+    font-size: 30px;
+    color: #4d5fe3;
     line-height: 1.2em;
     font-weight: 700;
     text-transform: capitalize;

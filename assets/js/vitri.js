@@ -6,6 +6,7 @@ $(document).ready(function() {
     }).done(function(result) {
         $('.select').html(result)
     });
+    sodo("@@")
 })
 
 function setKhoi() {
@@ -64,5 +65,19 @@ function reset() {
     }).done(function(result) {
         $('.select').html(result)
     });
+    sodo('@@')
+}
 
+function sodo(seat) {
+    console.log(seat)
+    $.ajax({
+        url: 'php/sodo.php',
+        dataType: 'html',
+        type: 'GET',
+        data: {
+            seat: seat
+        }
+    }).done(function(result) {
+        $('.table').html(result)
+    });
 }
