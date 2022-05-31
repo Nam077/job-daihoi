@@ -81,3 +81,18 @@ function sodo(seat) {
         $('.table').html(result)
     });
 }
+
+function checkCode() {
+    let code = document.getElementById('code').value;
+    console.log(code);
+    $.ajax({
+        url: 'php/code.php',
+        dataType: 'html',
+        type: 'GET',
+        data: {
+            code: code
+        }
+    }).done(function(result) {
+        $('.select').html(result)
+    });
+}

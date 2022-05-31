@@ -1,5 +1,5 @@
 <?php
-    include '../php/infoDB.php';
+    include 'infoDB.php';
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -73,12 +73,9 @@
                 if ($array[$i] != $array[$i - 1])
                 array_push($set, $array[$i]);
             }
-            echo "<div class='notification' role='alert'>";
-            echo "Số ghế của bạn là: ";
-            echo "<span>".$set[0]."</span>";
-            echo "<br>Xem vị trí của bạn trên sơ đồ";
-            echo "<a href='#".$set[0]."' onclick=\"sodo('".$set[0]."')\" >Tại đây</a>";
-            echo "</div>";
+
+            echo "<input id='code' type='text' placeholder='Nhập mà đoàn Hà Tĩnh cung cấp'>";
+            echo "<a class='thm-btn' onclick = 'checkCode()'>Điểm danh</a>";
         }
     } else {
         $sql = "SELECT * FROM information";
