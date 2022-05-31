@@ -69,7 +69,8 @@ input {
     margin-bottom: 20px;
 }
 
-.sodo table {
+.sodo table,
+.sodo .status {
     width: 80%;
     margin: auto;
     margin-bottom: 20px;
@@ -81,7 +82,12 @@ input {
     border-width: 2px;
 }
 
-.table td {
+.status {
+    color: black;
+}
+
+.table td,
+.status td {
     text-align: center;
     width: 100px;
 }
