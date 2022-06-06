@@ -14,7 +14,7 @@
             $class = getClass($seat);
             if ($seat == $_GET["seat"])
                 $class = "seat";
-            echo "<td id='".$seat."' class='".$class."'>".$j."</td>";
+            echo "<td id='".$seat."' class='".$class."'>".$seat."</td>";
         }
 
         echo "<td class ='path' rowspan='2'>".chr($i + 65)."</td>";
@@ -24,7 +24,7 @@
             $class = getClass($seat);
             if ($seat == $_GET["seat"])
                 $class = "seat";
-            echo "<td id='".$seat."' class='".$class."'>".$j."</td>";
+            echo "<td id='".$seat."' class='".$class."'>".$seat."</td>";
         }
         echo "<td class ='path' rowspan='2'>".chr($i + 65)."</td>";
         echo "</tr>";
