@@ -17,6 +17,15 @@
     width: 100%;
 }
 
+.sodo {
+    overflow-x: scroll;
+}
+
+th,
+td {
+    min-width: 250px;
+}
+
 .attendance select,
 #code {
     margin-top: 20px;
@@ -70,7 +79,8 @@ input {
 }
 
 .sodo table,
-.sodo .status {
+.sodo .status,
+table {
     width: 80%;
     margin: auto;
     margin-bottom: 20px;
