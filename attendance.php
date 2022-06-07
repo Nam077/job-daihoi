@@ -104,7 +104,7 @@
                             <div class="main-menu__inner">
                                 <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                 <?php
-                                    include "Menu.php";
+                                    include "menu.php";
                                 ?>
 
                                 <div class="right">

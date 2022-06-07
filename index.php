@@ -164,7 +164,7 @@
                   ></a>
 
                   <?php
-                    include "Menu.php";
+                    include "menu.php";
                    ?>
 
                   <div class="right">
