@@ -5,7 +5,7 @@
 
     if (isset($_GET["select"])) {
         if ($_GET["select"] == "Khoi") {
-            $sql = "SELECT * FROM information WHERE Khoi = '".$_COOKIE["Khoi"]."'";
+            $sql = "SELECT * FROM information WHERE Khoi = '".$_GET["Khoi"]."'";
             $result = $conn->query($sql);
 
             if ($result->num_rows > 0) {
@@ -23,6 +23,7 @@
                 if ($array[$i] != $array[$i - 1])
                 array_push($set, $array[$i]);
             }
+            echo "<input class='hideme' id='T_Khoi' value='".$_GET["Khoi"]."'>";
             echo "<h5>Đoàn</h5>";
             echo "<select id='select'>";
             for ($i = 0; $i < count($set); $i++)
@@ -30,7 +31,7 @@
             echo "</select>";
             echo "<a class='thm-btn' onclick = 'setDoan()'>Tiếp theo</a>";
         } else if ($_GET["select"] == "Doan") {
-            $sql = "SELECT * FROM information WHERE Khoi = '".$_COOKIE["Khoi"]."' AND Doan ='".$_COOKIE["Doan"]."'";
+            $sql = "SELECT * FROM information WHERE Khoi = '".$_GET["Khoi"]."' AND Doan ='".$_GET["Doan"]."'";
             $result = $conn->query($sql);
 
             if ($result->num_rows > 0) {
@@ -48,6 +49,9 @@
                 if ($array[$i] != $array[$i - 1])
                 array_push($set, $array[$i]);
             }
+            echo "<input class='hideme' id='T_Khoi' value='".$_GET["Khoi"]."'>";
+            echo "<input class='hideme' id='T_Doan' value='".$_GET["Doan"]."'>";
+
             echo "<h5>Tên của bạn</h5>";
             echo "<select id='select'>";
             for ($i = 0; $i < count($set); $i++)
@@ -55,7 +59,7 @@
             echo "</select>";
             echo "<a class='thm-btn' onclick = 'setName()'>Tiếp theo</a>";
         } else if ($_GET["select"] == "Name") {
-            $sql = "SELECT * FROM information WHERE Khoi = '".$_COOKIE["Khoi"]."' AND Doan ='".$_COOKIE["Doan"]."' AND HoTen='".$_COOKIE["Name"]."'";
+            $sql = "SELECT * FROM information WHERE Khoi = '".$_GET["Khoi"]."' AND Doan ='".$_GET["Doan"]."' AND HoTen='".$_GET["Name"]."'";
             $result = $conn->query($sql);
 
             if ($result->num_rows > 0) {
@@ -74,7 +78,11 @@
                 array_push($set, $array[$i]);
             }
 
-            echo "<input id='code' type='text' placeholder='Nhập mà đoàn Hà Tĩnh cung cấp'>";
+            echo "<input class='hideme' id='T_Khoi' value='".$_GET["Khoi"]."'>";
+            echo "<input class='hideme' id='T_Doan' value='".$_GET["Doan"]."'>";
+            echo "<input class='hideme' id='T_Name' value='".$_GET["Name"]."'>";
+
+            echo "<input id='code' type='text' placeholder='Nhập mã được cung cấp'>";
             echo "<a class='thm-btn' onclick = 'checkCode()'>Điểm danh</a>";
         }
     } else {
