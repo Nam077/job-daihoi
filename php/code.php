@@ -31,14 +31,15 @@
             $sql = "UPDATE information SET DiemDanh = 'x' WHERE SoGhe = '".$set[0]."'";
             $conn->query($sql);
             echo "<div class='notification' role='alert'>";
-            echo "Xin chào ".$_GET["Name"].".<br>";
-            echo "Ghế ngồi của bạn ở: <br>";
+            echo "Xin chào: Đồng chí ".$_GET["Name"].".<br>";
+            echo "Số ghế của bạn là: <br>";
             echo" Ghế số ";
             echo "<span>".substr($set[0], 1, strlen($set[0]) - 1)."</span>";
             echo " dãy ghế ";
             echo "<span>".$set[0][0]."</span>";
             echo "<br>Xem vị trí của bạn trên sơ đồ";
             echo "<a href='#".$set[0]."' onclick=\"sodo('".$set[0]."')\" >Tại đây</a>";
+            echo "<br><span>Hãy chụp lại màn hình để nhớ số ghế của mình nhé!</span>";
             echo "</div>";
         } else {
             echo "<div class='notification' role='alert'>";

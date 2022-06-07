@@ -163,14 +163,9 @@
                     ><i class="fa fa-bars"></i
                   ></a>
 
-                  <div class="left">
-                    <ul class="main-menu__list">
-                      <li class="dropdown current">
-                        <a href="index.html">Trang chủ</a>
-                      </li>
-                      <li><a href="attendance.html">Chỗ ngồi</a></li>
-                    </ul>
-                  </div>
+                  <?php
+                    include "Menu.php";
+                   ?>
 
                   <div class="right">
                     <div class="main-menu__right">
@@ -524,7 +519,7 @@
                   <span class="icon-empowerment"></span>
                 </div>
                 <div class="features-one__single-text">
-                  <h4><a href="#">Tuổi trẻ sáng tạo</a></h4>
+                  <h4><a>Tuổi trẻ sáng tạo</a></h4>
                 </div>
               </div>
             </div>
@@ -573,7 +568,7 @@
         <div class="container">
           <div class="section-title text-center">
             <span class="section-title__tagline">Danh mục</span>
-            <h2 class="section-title__title">Tài Liệu Đại Hội</h2>
+            <h2 class="section-title__title" id="document">Tài Liệu Đại Hội</h2>
           </div>
           <div class="row">
             <!--Start Single Courses One-->
@@ -827,8 +822,7 @@
                   <h3 class="footer-widget__title">Sơ đồ và vị trí của bạn</h3>
                   <p class="text">Đoàn thanh niên Hà Tĩnh</p>
                   <p>
-                    <a href="mailto:info@templatepath.com"
-                      >duchai2712@gmail.com</a
+                    <a href="mailto:info@templatepath.com">duchai2712@gmail.com</a
                     >
                   </p>
                   <p class="phone"><a href="tel:123456789">0961463407</a></p>
