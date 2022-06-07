@@ -23,7 +23,7 @@
 
 th,
 td {
-    min-width: 250px;
+    min-width: 50px;
 }
 
 .attendance select,
@@ -122,6 +122,12 @@ table {
 
 .path {
     background-color: rgb(205, 255, 139);
+    min-width: 30px;
+}
+
+.hideme {
+    display: none;
+    visibility: hidden;
 }
 
 .none {
@@ -146,4 +152,9 @@ table {
 
 .phuongxa {
     background-color: rgb(183, 255, 195);
+}
+
+.hideme {
+    display: none;
+    visibility: hidden;
 }

@@ -10,15 +10,16 @@ $(document).ready(function() {
 })
 
 function setKhoi() {
-    let Khoi = $('#select').val();
-    document.cookie = "Khoi=" + Khoi + "; path=/"
+    $Khoi = $('#select').val();
+
     console.log(document.cookie);
     $.ajax({
         url: 'php/vitri.php',
         dataType: 'html',
         type: 'GET',
         data: {
-            select: "Khoi"
+            select: "Khoi",
+            Khoi: $Khoi
         }
     }).done(function(result) {
         $('.select').html(result)
@@ -26,15 +27,16 @@ function setKhoi() {
 }
 
 function setDoan() {
-    let Doan = $('#select').val();
-    document.cookie = "Doan=" + Doan + "; path=/"
-    console.log(document.cookie);
+    $Khoi = document.getElementById('T_Khoi').value;
+    $Doan = $('#select').val();
     $.ajax({
         url: 'php/vitri.php',
         dataType: 'html',
         type: 'GET',
         data: {
-            select: "Doan"
+            select: "Doan",
+            Khoi: $Khoi,
+            Doan: $Doan
         }
     }).done(function(result) {
         $('.select').html(result)
@@ -42,15 +44,18 @@ function setDoan() {
 }
 
 function setName() {
-    let Name = $('#select').val();
-    document.cookie = "Name=" + Name + "; path=/"
-    console.log(document.cookie);
+    $Khoi = document.getElementById('T_Khoi').value;
+    $Doan = document.getElementById('T_Doan').value;
+    $Name = $('#select').val();
     $.ajax({
         url: 'php/vitri.php',
         dataType: 'html',
         type: 'GET',
         data: {
-            select: "Name"
+            select: "Name",
+            Khoi: $Khoi,
+            Doan: $Doan,
+            Name: $Name
         }
     }).done(function(result) {
         $('.select').html(result)
@@ -83,6 +88,9 @@ function sodo(seat) {
 }
 
 function checkCode() {
+    $Khoi = document.getElementById('T_Khoi').value;
+    $Doan = document.getElementById('T_Doan').value;
+    $Name = document.getElementById('T_Name').value;
     let code = document.getElementById('code').value;
     console.log(code);
     $.ajax({
@@ -90,7 +98,10 @@ function checkCode() {
         dataType: 'html',
         type: 'GET',
         data: {
-            code: code
+            code: code,
+            Khoi: $Khoi,
+            Doan: $Doan,
+            Name: $Name
         }
     }).done(function(result) {
         $('.select').html(result)
