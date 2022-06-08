@@ -58,8 +58,11 @@
       rel="stylesheet"
       href="assets/vendors/nouislider/nouislider.pips.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="assets/vendors/odometer/odometer.min.css" />
-    <link rel="stylesheet" href="assets/vendors/swiper/swiper.min.css" />
     <link rel="stylesheet" href="assets/vendors/icomoon-icons/style.css" />
     <link
       rel="stylesheet"
@@ -83,6 +86,39 @@
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/zilom.css" />
     <link rel="stylesheet" href="assets/css/zilom-responsive.css" />
+    <style>
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
   </head>
 
   <body>
@@ -190,6 +226,7 @@
       </div>
       <!-- /.stricky-header -->
       <hr />
+<<<<<<< HEAD
 
       <section class="main-slider main-slider-one">
         <div
@@ -483,31 +520,47 @@
               </div>
             </div>
             <!--End Single Swiper Slide-->
+=======
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/images/slide/1 (11).png" alt="" />
+>>>>>>> 7ed11e6586b66850e5e402c98cfd77d718f58e7c
           </div>
-
-          <!-- If we need navigation buttons -->
-          <div class="swiper-pagination" id="main-slider-pagination"></div>
-          <div class="main-slider__nav">
-            <div
-              class="swiper-button-prev"
-              id="main-slider__swiper-button-next"
-            >
-              <span class="icon-left"></span>
-            </div>
-            <div
-              class="swiper-button-next"
-              id="main-slider__swiper-button-prev"
-            >
-              <span class="icon-right"></span>
-            </div>
+          <div class="swiper-slide">
+            <img src="assets/images/slide/1 (11).png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/slide/1 (11).png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/slide/1 (11).png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/slide/1 (11).png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/slide/1 (11).png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/slide/1 (11).png" alt="" />
           </div>
         </div>
-      </section>
-
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
       <!--Features One Start-->
       <section class="features-one">
         <div class="container">
           <div class="row">
+<<<<<<< HEAD:index.html
+            <div class="col item-title">
+              <div class="card text-center">
+                <div class="card-body list-tilte">
+                  <i class="fas fa-star"></i>
+                  <p class="card-text">Tài liệu đại hội</p>
+=======
             <!--Start Single Features One-->
             <div
               class="col-xl-4 col-lg-4 wow fadeInUp"
@@ -520,44 +573,36 @@
                 </div>
                 <div class="features-one__single-text">
                   <h4><a>Tuổi trẻ sáng tạo</a></h4>
+>>>>>>> 1bcccadaed47b4d8f25af9a5f1550b11c5d65c58:index.php
                 </div>
               </div>
             </div>
-            <!--End Single Features One-->
-
-            <!--Start Single Features One-->
-            <div
-              class="col-xl-4 col-lg-4 wow fadeInUp"
-              data-wow-delay="200ms"
-              data-wow-duration="1500ms"
-            >
-              <div class="features-one__single">
-                <div class="features-one__single-icon">
-                  <span class="icon-human-resources-1"></span>
-                </div>
-                <div class="features-one__single-text">
-                  <h4><a href="#">Thanh niên tình nguyện</a></h4>
+            <div class="col item-title">
+              <div class="card text-center">
+                <div class="card-body list-tilte">
+                  <i class="fas fa-star"></i>
+                  <p class="card-text">Sơ đồ chỗ ngồi</p>
                 </div>
               </div>
             </div>
-            <!--End Single Features One-->
-
-            <!--Start Single Features One-->
-            <div
-              class="col-xl-4 col-lg-4 wow fadeInUp"
-              data-wow-delay="400ms"
-              data-wow-duration="1500ms"
-            >
-              <div class="features-one__single">
-                <div class="features-one__single-icon">
-                  <span class="icon-recruitment"></span>
-                </div>
-                <div class="features-one__single-text">
-                  <h4><a href="#">Xung kích bảo vệ Tổ quốc </a></h4>
+          </div>
+          <div class="row mt-1">
+            <div class="col item-title">
+              <div class="card text-center">
+                <div class="card-body list-tilte">
+                  <i class="fas fa-star"></i>
+                  <p class="card-text">Triển lãm thực tế ảo</p>
                 </div>
               </div>
             </div>
-            <!--End Single Features One-->
+            <div class="col item-title">
+              <div class="card text-center">
+                <div class="card-body list-tilte">
+                  <i class="fas fa-star"></i>
+                  <p class="card-text">Tranh cổ động đại hội</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -953,7 +998,6 @@
     <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
     <script src="assets/vendors/nouislider/nouislider.min.js"></script>
     <script src="assets/vendors/odometer/odometer.min.js"></script>
-    <script src="assets/vendors/swiper/swiper.min.js"></script>
     <script src="assets/vendors/tiny-slider/tiny-slider.min.js"></script>
     <script src="assets/vendors/wnumb/wNumb.min.js"></script>
     <script src="assets/vendors/wow/wow.js"></script>
@@ -966,7 +1010,27 @@
 
     <script src="http://maps.google.com/maps/api/js?key=AIzaSyATY4Rxc8jNvDpsK8ZetC7JyN4PFVYGCGM"></script>
 
-    <!-- template js -->
-    <script src="assets/js/zilom.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
   </body>
 </html>
