@@ -207,7 +207,7 @@
         "delay": 3000
         }}'
         >
-          <div class="swiper-wrapper" style="height: 800px">
+          <div class="swiper-wrapper" style="height: 300px">
             <!--Start Single Swiper Slide-->
             <div class="swiper-slide">
               <div class="shape1">
