@@ -1,9 +1,14 @@
+.attendance,
 .attendance a {
     margin-top: 20px;
     width: 100%;
     padding: 10px;
     justify-content: center;
     text-align: center;
+}
+
+.attendance a {
+    margin-bottom: 20px;
 }
 
 .attendance {
@@ -24,6 +29,10 @@
 th,
 td {
     min-width: 50px;
+}
+
+select {
+    text-transform: uppercase;
 }
 
 .attendance select,

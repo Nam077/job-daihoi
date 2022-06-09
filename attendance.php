@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sơ đồ chỗ ngồi | XXI.</title>
+    <title>Sơ đồ chỗ ngồi</title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
@@ -103,15 +103,9 @@
                         <nav class="main-menu main-menu--1">
                             <div class="main-menu__inner">
                                 <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
-
-                                <div class="left">
-                                    <ul class="main-menu__list">
-                                        <li class="dropdown">
-                                            <a href="index.html">Trang chủ</a>
-                                        </li>
-                                        <li class="current"><a href="attendance.html">Sơ đồ chỗ ngồi</a></li>
-                                    </ul>
-                                </div>
+                                <?php
+                                    include "menu.php";
+                                ?>
 
                                 <div class="right">
                                     <div class="main-menu__right">
@@ -155,7 +149,7 @@
                             <div class="page-header__menu">
                                 <ul class="page-header__menu-list list-unstyled clearfix">
                                     <li><a href="index.html">Trang chủ</a></li>
-                                    <li class="active">Điểm danh</li>
+                                    <li class="active">Sơ đồ chỗ ngồi</li>
                                 </ul>
                             </div>
                         </div>
@@ -190,7 +184,6 @@
 
             <table class="table">
             </table>
-            <input class="">
         </div>
 
         <!--Start Footer One-->

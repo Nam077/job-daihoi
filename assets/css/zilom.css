@@ -98,6 +98,10 @@ h6 {
   margin: 0;
 }
 
+h5 {
+  margin-top: 20px;
+}
+
 .noSelect {
   -ms-user-select: none;
   user-select: none;

@@ -9,6 +9,23 @@ $(document).ready(function() {
     sodo("@@")
 })
 
+function setDaiBieu() {
+    $DaiBieu = $('#select').val();
+
+    console.log(document.cookie);
+    $.ajax({
+        url: 'php/vitri.php',
+        dataType: 'html',
+        type: 'GET',
+        data: {
+            select: "DaiBieu",
+            DaiBieu: $DaiBieu
+        }
+    }).done(function(result) {
+        $('.select').html(result)
+    });
+}
+
 function setKhoi() {
     $Khoi = $('#select').val();
 

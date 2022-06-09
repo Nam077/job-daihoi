@@ -199,14 +199,9 @@
                     ><i class="fa fa-bars"></i
                   ></a>
 
-                  <div class="left">
-                    <ul class="main-menu__list">
-                      <li class="dropdown current">
-                        <a href="index.html">Trang chủ</a>
-                      </li>
-                      <li><a href="attendance.html">Chỗ ngồi</a></li>
-                    </ul>
-                  </div>
+                  <?php
+                    include "menu.php";
+                   ?>
 
                   <div class="right">
                     <div class="main-menu__right">
@@ -263,11 +258,26 @@
       <section class="features-one">
         <div class="container">
           <div class="row">
+<<<<<<< HEAD:index.html
             <div class="col item-title">
               <div class="card text-center">
                 <div class="card-body list-tilte">
                   <i class="fas fa-star"></i>
                   <p class="card-text">Tài liệu đại hội</p>
+=======
+            <!--Start Single Features One-->
+            <div
+              class="col-xl-4 col-lg-4 wow fadeInUp"
+              data-wow-delay="0ms"
+              data-wow-duration="1500ms"
+            >
+              <div class="features-one__single">
+                <div class="features-one__single-icon">
+                  <span class="icon-empowerment"></span>
+                </div>
+                <div class="features-one__single-text">
+                  <h4><a>Tuổi trẻ sáng tạo</a></h4>
+>>>>>>> 1bcccadaed47b4d8f25af9a5f1550b11c5d65c58:index.php
                 </div>
               </div>
             </div>
@@ -307,7 +317,7 @@
         <div class="container">
           <div class="section-title text-center">
             <span class="section-title__tagline">Danh mục</span>
-            <h2 class="section-title__title">Tài Liệu Đại Hội</h2>
+            <h2 class="section-title__title" id="document">Tài Liệu Đại Hội</h2>
           </div>
           <div class="row">
             <!--Start Single Courses One-->
@@ -561,8 +571,7 @@
                   <h3 class="footer-widget__title">Sơ đồ và vị trí của bạn</h3>
                   <p class="text">Đoàn thanh niên Hà Tĩnh</p>
                   <p>
-                    <a href="mailto:info@templatepath.com"
-                      >duchai2712@gmail.com</a
+                    <a href="mailto:info@templatepath.com">duchai2712@gmail.com</a
                     >
                   </p>
                   <p class="phone"><a href="tel:123456789">0961463407</a></p>
