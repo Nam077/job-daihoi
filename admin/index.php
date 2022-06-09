@@ -1,9 +1,15 @@
+<?php
+if (!isset($_COOKIE["token"])) {
+    header("Location: ../admin/login.php");
+}
+?>
 <?php include "include/hd.php"; ?>
 <?php include "include/navbar.php"; ?>
 <?php include "include/menu.php"; ?>
 <?php include "include/main.php"; ?>
 <?php include "../php/infoDB.php" ?>
 <?php
+//check token if not exist back to login.php
 $conn = new mysqli($servername, $username, $password, $dbname);
 $sql = "SELECT * FROM information";
 $result = $conn->query($sql);

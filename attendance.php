@@ -56,7 +56,7 @@
                     <div class="main-header--one__top-inner clearfix">
                         <div class="main-header--one__top-left">
                             <div class="main-header--one__top-logo">
-                                <a href="index.html"><img src="assets/images/resources/logo-1.png" alt="" class="logo" /></a>
+                                <a href="index.php"><img src="assets/images/resources/logo-1.png" alt="" class="logo" /></a>
                             </div>
                         </div>
 
@@ -104,7 +104,7 @@
                             <div class="main-menu__inner">
                                 <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                 <?php
-                                    include "menu.php";
+                                include "menu.php";
                                 ?>
 
                                 <div class="right">
@@ -148,7 +148,7 @@
                             </div>
                             <div class="page-header__menu">
                                 <ul class="page-header__menu-list list-unstyled clearfix">
-                                    <li><a href="index.html">Trang chủ</a></li>
+                                    <li><a href="index.php">Trang chủ</a></li>
                                     <li class="active">Sơ đồ chỗ ngồi</li>
                                 </ul>
                             </div>
@@ -198,7 +198,7 @@
                         <div class="col-xl-2 col-lg-4 col-md-4 wow animated fadeInUp" data-wow-delay="0.1s">
                             <div class="footer-widget__column footer-widget__about">
                                 <div class="footer-widget__about-logo">
-                                    <a href="index.html"><img src="assets/images/resources/footer-logo.png" class="footer-logo" alt=""></a>
+                                    <a href="index.php"><img src="assets/images/resources/footer-logo.png" class="footer-logo" alt=""></a>
                                 </div>
                             </div>
                         </div>
@@ -282,7 +282,7 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/resources/logo-1.png" height="50px" alt="" /></a>
+                <a href="index.php" aria-label="logo image"><img src="assets/images/resources/logo-1.png" height="50px" alt="" /></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>

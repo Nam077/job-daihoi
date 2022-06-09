@@ -1,3 +1,8 @@
+<?php
+if (!isset($_COOKIE["token"])) {
+    header("Location: ../admin/login.php");
+}
+?>
 <?php $queries = array();
 include '../php/infoDB.php';
 parse_str($_SERVER['QUERY_STRING'], $queries);
