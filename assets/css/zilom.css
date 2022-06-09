@@ -2700,7 +2700,7 @@ ul {
   position: relative;
   display: block;
   background: #ffffff;
-  padding: 120px 0px 90px;
+  padding: 20px 0px 90px;
 }
 
 .features-one__single {
@@ -7395,4 +7395,17 @@ ul {
 
 #scrollbar1 .disable {
   display: none;
+}
+.list-tilte i {
+  font-size: 2rem;
+  color: rgb(252, 86, 29);
+}
+.list-tilte p {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+.item-title {
+  padding: 8px;
 }

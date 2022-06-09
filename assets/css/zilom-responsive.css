@@ -1436,6 +1436,9 @@
   .main-slider-one .swiper-slide .shape2 img {
     width: 70%;
   }
+  .list-tilte p {
+    font-size: 1rem;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1463,6 +1466,9 @@
   /** Main SLider Two css**/
   .main-slider__title {
     font-size: 60px;
+  }
+  .list-tilte p {
+    font-size: 1rem;
   }
 }
 
@@ -1529,5 +1535,9 @@
   .main-slider .container {
     padding-top: 100px;
     padding-bottom: 100px;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
   }
 }
