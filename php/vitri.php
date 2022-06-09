@@ -34,8 +34,9 @@
                 echo "<a class='thm-btn' onclick = 'setKhoi()'>Tiếp theo</a>";
             } else  {
                 echo "<div class='notification' role='alert'>";
-                echo "Xin chào đồng chí <br>";
-                echo "Hãy đến ghế ngồi của quý đại biểu";
+                echo "Trân trọng cảm ơn quý vị đại biểu đã quét mã Qr và nhập thông tin<br>";
+                echo "Kính mời quý vị Đại biểu tiến vào Hội trường để cùng tham dự Đại hội đại biểu Đoàn TNCS Hồ Chí Minh thành phố Hà Tĩnh lần thứ XXI<br>";
+                echo "nhiệm kỳ 2022-2027";
                 echo "</div>";
             }
             

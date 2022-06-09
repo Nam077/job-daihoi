@@ -156,6 +156,7 @@
           </div>
         </div>
       </div>
+<<<<<<< HEAD
     </header>
 
     <div class="stricky-header stricked-menu main-menu">
@@ -195,6 +196,329 @@
         </div>
         <div class="swiper-slide">
           <img src="assets/images/slide/1 (1).png" alt="" />
+=======
+      <!-- /.stricky-header -->
+      <hr />
+<<<<<<< HEAD
+
+      <section class="main-slider main-slider-one">
+        <div
+          class="swiper-container thm-swiper__slider"
+          data-swiper-options='{"slidesPerView": 1, "loop": true, "effect": "fade", "pagination": {
+        "el": "#main-slider-pagination",
+        "type": "bullets",
+        "clickable": true
+        },
+        "navigation": {
+        "nextEl": "#main-slider__swiper-button-next",
+        "prevEl": "#main-slider__swiper-button-prev"
+        },
+        "autoplay": {
+        "delay": 3000
+        }}'
+        >
+          <div class="swiper-wrapper" style="height: 300px">
+            <!--Start Single Swiper Slide-->
+            <div class="swiper-slide">
+              <div class="shape1">
+                <img src="assets/images/shapes/slider-v1-shape1.png" alt="" />
+              </div>
+              <div class="shape2">
+                <img src="assets/images/shapes/slider-v1-shape2.png" alt="" />
+              </div>
+              <div
+                class="image-layer"
+                style="
+                  background-image: url(assets/images/backgrounds/main-slider-v1-1.jpg);
+                "
+              ></div>
+              <!-- /.image-layer -->
+              <div class="container">
+                <div class="main-slider__content">
+                  <div class="main-slider__content-btn"></div>
+                  <div class="main-slider-one__img">
+                    <img src="assets/images/slide/1 (11).png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Single Swiper Slide-->
+            <!--Start Single Swiper Slide-->
+            <div class="swiper-slide">
+              <div class="shape1">
+                <img src="assets/images/shapes/slider-v1-shape1.png" alt="" />
+              </div>
+              <div class="shape2">
+                <img src="assets/images/shapes/slider-v1-shape2.png" alt="" />
+              </div>
+              <div
+                class="image-layer"
+                style="
+                  background-image: url(assets/images/backgrounds/main-slider-v1-1.jpg);
+                "
+              ></div>
+              <!-- /.image-layer -->
+              <div class="container">
+                <div class="main-slider__content">
+                  <div class="main-slider__content-btn"></div>
+                  <div class="main-slider-one__img">
+                    <img src="assets/images/slide/1 (6).png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Single Swiper Slide-->
+            <!--Start Single Swiper Slide-->
+            <div class="swiper-slide">
+              <div class="shape1">
+                <img src="assets/images/shapes/slider-v1-shape1.png" alt="" />
+              </div>
+              <div class="shape2">
+                <img src="assets/images/shapes/slider-v1-shape2.png" alt="" />
+              </div>
+              <div
+                class="image-layer"
+                style="
+                  background-image: url(assets/images/backgrounds/main-slider-v1-1.jpg);
+                "
+              ></div>
+              <!-- /.image-layer -->
+              <div class="container">
+                <div class="main-slider__content">
+                  <div class="main-slider__content-btn"></div>
+                  <div class="main-slider-one__img">
+                    <img src="assets/images/slide/1 (10).png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Single Swiper Slide-->
+            <!--Start Single Swiper Slide-->
+            <div class="swiper-slide">
+              <div class="shape1">
+                <img src="assets/images/shapes/slider-v1-shape1.png" alt="" />
+              </div>
+              <div class="shape2">
+                <img src="assets/images/shapes/slider-v1-shape2.png" alt="" />
+              </div>
+              <div
+                class="image-layer"
+                style="
+                  background-image: url(assets/images/backgrounds/main-slider-v1-1.jpg);
+                "
+              ></div>
+              <!-- /.image-layer -->
+              <div class="container">
+                <div class="main-slider__content">
+                  <div class="main-slider__content-btn"></div>
+                  <div class="main-slider-one__img">
+                    <img src="assets/images/slide/1 (5).png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Single Swiper Slide-->
+            <!--Start Single Swiper Slide-->
+            <div class="swiper-slide">
+              <div class="shape1">
+                <img src="assets/images/shapes/slider-v1-shape1.png" alt="" />
+              </div>
+              <div class="shape2">
+                <img src="assets/images/shapes/slider-v1-shape2.png" alt="" />
+              </div>
+              <div
+                class="image-layer"
+                style="
+                  background-image: url(assets/images/backgrounds/main-slider-v1-1.jpg);
+                "
+              ></div>
+              <!-- /.image-layer -->
+              <div class="container">
+                <div class="main-slider__content">
+                  <div class="main-slider__content-btn"></div>
+                  <div class="main-slider-one__img">
+                    <img src="assets/images/slide/1 (8).png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Single Swiper Slide-->
+            <!--Start Single Swiper Slide-->
+            <div class="swiper-slide">
+              <div class="shape1">
+                <img src="assets/images/shapes/slider-v1-shape1.png" alt="" />
+              </div>
+              <div class="shape2">
+                <img src="assets/images/shapes/slider-v1-shape2.png" alt="" />
+              </div>
+              <div
+                class="image-layer"
+                style="
+                  background-image: url(assets/images/backgrounds/main-slider-v1-1.jpg);
+                "
+              ></div>
+              <!-- /.image-layer -->
+              <div class="container">
+                <div class="main-slider__content">
+                  <div class="main-slider__content-btn"></div>
+                  <div class="main-slider-one__img">
+                    <img src="assets/images/slide/1 (2).png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Single Swiper Slide-->
+            <!--Start Single Swiper Slide-->
+            <div class="swiper-slide">
+              <div class="shape1">
+                <img src="assets/images/shapes/slider-v1-shape1.png" alt="" />
+              </div>
+              <div class="shape2">
+                <img src="assets/images/shapes/slider-v1-shape2.png" alt="" />
+              </div>
+              <div
+                class="image-layer"
+                style="
+                  background-image: url(assets/images/backgrounds/main-slider-v1-1.jpg);
+                "
+              ></div>
+              <!-- /.image-layer -->
+              <div class="container">
+                <div class="main-slider__content">
+                  <div class="main-slider__content-btn"></div>
+                  <div class="main-slider-one__img">
+                    <img src="assets/images/slide/1 (3).png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Single Swiper Slide-->
+            <!--Start Single Swiper Slide-->
+            <div class="swiper-slide">
+              <div class="shape1">
+                <img src="assets/images/shapes/slider-v1-shape1.png" alt="" />
+              </div>
+              <div class="shape2">
+                <img src="assets/images/shapes/slider-v1-shape2.png" alt="" />
+              </div>
+              <div
+                class="image-layer"
+                style="
+                  background-image: url(assets/images/backgrounds/main-slider-v1-1.jpg);
+                "
+              ></div>
+              <!-- /.image-layer -->
+              <div class="container">
+                <div class="main-slider__content">
+                  <div class="main-slider__content-btn"></div>
+                  <div class="main-slider-one__img">
+                    <img src="assets/images/slide/1 (4).png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Single Swiper Slide-->
+            <!--Start Single Swiper Slide-->
+            <div class="swiper-slide">
+              <div class="shape1">
+                <img src="assets/images/shapes/slider-v1-shape1.png" alt="" />
+              </div>
+              <div class="shape2">
+                <img src="assets/images/shapes/slider-v1-shape2.png" alt="" />
+              </div>
+              <div
+                class="image-layer"
+                style="
+                  background-image: url(assets/images/backgrounds/main-slider-v1-1.jpg);
+                "
+              ></div>
+              <!-- /.image-layer -->
+              <div class="container">
+                <div class="main-slider__content">
+                  <div class="main-slider__content-btn"></div>
+                  <div class="main-slider-one__img">
+                    <img src="assets/images/slide/1 (7).png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Single Swiper Slide-->
+            <!--Start Single Swiper Slide-->
+            <div class="swiper-slide">
+              <div class="shape1">
+                <img src="assets/images/shapes/slider-v1-shape1.png" alt="" />
+              </div>
+              <div class="shape2">
+                <img src="assets/images/shapes/slider-v1-shape2.png" alt="" />
+              </div>
+              <div
+                class="image-layer"
+                style="
+                  background-image: url(assets/images/backgrounds/main-slider-v1-1.jpg);
+                "
+              ></div>
+              <!-- /.image-layer -->
+              <div class="container">
+                <div class="main-slider__content">
+                  <div class="main-slider__content-btn"></div>
+                  <div class="main-slider-one__img">
+                    <img src="assets/images/slide/1 (9).png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Single Swiper Slide-->
+            <!--Start Single Swiper Slide-->
+            <div class="swiper-slide">
+              <div class="shape1">
+                <img src="assets/images/shapes/slider-v1-shape1.png" alt="" />
+              </div>
+              <div class="shape2">
+                <img src="assets/images/shapes/slider-v1-shape2.png" alt="" />
+              </div>
+              <div
+                class="image-layer"
+                style="
+                  background-image: url(assets/images/backgrounds/main-slider-v1-1.jpg);
+                "
+              ></div>
+              <!-- /.image-layer -->
+              <div class="container">
+                <div class="main-slider__content">
+                  <div class="main-slider__content-btn"></div>
+                  <div class="main-slider-one__img">
+                    <img src="assets/images/slide/1 (1).png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--End Single Swiper Slide-->
+=======
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/images/slide/1 (11).png" alt="" />
+>>>>>>> 7ed11e6586b66850e5e402c98cfd77d718f58e7c
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/slide/1 (11).png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/slide/1 (11).png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/slide/1 (11).png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/slide/1 (11).png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/slide/1 (11).png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/slide/1 (11).png" alt="" />
+          </div>
+>>>>>>> 32a0cb9e15cf8c969fe8d4758841fb857703cc83
         </div>
       </div>
       <div class="swiper-button-next"></div>
