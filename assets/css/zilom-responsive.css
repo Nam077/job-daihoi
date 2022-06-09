@@ -1,4 +1,7 @@
 @media only screen and (min-width: 1451px) and (max-width: 1800px) {
+  .list-tilte p {
+    font-size: 1rem;
+  }
   .main-header-three__top-left ul li {
     justify-content: flex-start;
     width: 33.3333333333%;
@@ -43,6 +46,9 @@
 
 @media only screen and (min-width: 1200px) and (max-width: 1499px) {
   /***About Three Css***/
+  .list-tilte p {
+    font-size: 1rem;
+  }
   .about-three .container-fullwidth {
     display: block;
   }
@@ -71,6 +77,9 @@
 }
 
 @media only screen and (max-width: 1199px) {
+  .list-tilte p {
+    font-size: 1rem;
+  }
   /***Main Header One ***/
   .main-menu--1 .mobile-nav__toggler {
     position: relative;
@@ -101,6 +110,9 @@
   /***Counter One Css***/
   .counter-one__right-single {
     width: 200px;
+  }
+  .list-tilte p {
+    font-size: 1rem;
   }
 }
 
