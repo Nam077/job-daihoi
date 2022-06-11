@@ -118,6 +118,9 @@
 
 /** Medium screen**/
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .img-list {
+    width: 20%;
+  }
   /***Banner One Css***/
   .banner-one {
     min-height: 885px;
@@ -387,6 +390,9 @@
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /*** Main Header One Css***/
+  .img-list {
+    width: 20%;
+  }
   .main-header--one__top-contact-info {
     display: none;
   }
@@ -1433,6 +1439,9 @@
 --------------------------------------------------------------*/
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .img-list {
+    width: 20%;
+  }
   .main-slider__content-tagline {
     width: 380px;
   }
@@ -1551,5 +1560,8 @@
   .swiper-button-next,
   .swiper-button-prev {
     display: none;
+  }
+  .img-list {
+    width: 40%;
   }
 }

@@ -29,6 +29,10 @@ $result = $conn->query($sql);
                     <input name="name-document" type="text" class="form-control" placeholder="Nhập tên tài liệu">
                 </div>
                 <div class="form-group">
+                    <label for="exampleInputEmail1">Link tài liệu</label>
+                    <input name="url-document" type="text" class="form-control" placeholder="Nhập link tài liệu">
+                </div>
+                <div class="form-group">
                     <label for="exampleInputPassword1">File</label>
                     <input name="file-document" type="file" class="form-control" id="exampleInputPassword1" accept="application/pdf,application/msword,
   application/vnd.openxmlformats-officedocument.wordprocessingml.document" placeholder="Password">
@@ -46,24 +50,8 @@ $result = $conn->query($sql);
 <?php include "include/mainend.php"; ?>
 
 <?php include "include/footer.php"; ?>
-<script>
-    $(document).click(function() {
-        console.log($(this).attr("url"));
-    });
-</script>
+
 <script>
     //check validate form #form-add-document and alert error
-    $("#form-add-document").submit(function(e) {
-        e.preventDefault();
-        var name = $("input[name='name-document']").val();
-        var file = $("input[name='file-document']").val();
-        if (name == "") {
-            alert("Tên tài liệu không được để trống");
-        } else if (file == "") {
-            alert("File không được để trống");
-        } else {
-            $("#form-add-document").unbind('submit').submit();
-        }
-    });
 </script>
 <?php include "include/endfooter.php"; ?>

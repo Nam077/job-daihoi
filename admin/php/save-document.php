@@ -4,7 +4,7 @@ if (!isset($_COOKIE["token"])) {
 }
 ?>
 <?php
-
+$url = $_POST["url-document"];
 $name = $_POST["name-document"];
 $folder = "../../uploads/documents/";
 echo ($name);
@@ -31,7 +31,7 @@ if (is_uploaded_file($_FILES['file-document']['tmp_name'])) {
 
 
             $pathFile = str_replace("../../", "/", $db_path);
-            $sql = "INSERT INTO `documents` (`name`, `file`, `path_file`) VALUES ('" . $name . "', '" . $newfilename . "', '" . $pathFile . "')";
+            $sql = "INSERT INTO `documents` (`name`, `file`, `path_file`,`url`) VALUES ('" . $name . "', '" . $newfilename . "', '" . $pathFile .  "', '" . $url . "')";
             // (filePath) VALUES ('$db_path')";
             if ($conn->query($sql) === TRUE) {
                 echo "New record created successfully";

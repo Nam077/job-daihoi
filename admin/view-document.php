@@ -51,7 +51,7 @@ if ($_SERVER['SERVER_NAME'] == "localhost") {
                             echo '<th scope="row">' . $row['id'] . '</th>';
                             echo '<td scope="row">' . $row['name'] . '</td>';
                             echo '<td scope="row">' . $row['file'] . '</td>';
-                            echo '<td scope="row">' . $row['path_file'] . '</td>';
+                            echo '<td scope="row">' . $row['url'] . '</td>';
                             echo '<td scope="row">
                                     <a href="' . $url  . $row['path_file'] . '" class="btn btn-primary">Download</a>
                                     <a href="../admin/php/delete-document.php?id=' . $row['id'] . '" class="btn btn-danger">Delete</a>
